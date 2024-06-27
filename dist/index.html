@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  class="bg-slate-600 grid place-content-center h-screen" >
+    <h1 class="text-orange-400 text-2xl">Test</h1>
+    <div class=" ">
+        <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Physics_wallah_logo.jpg/600px-Physics_wallah_logo.jpg?20211017183441" alt="" class="h-12 w-12 ">
+            </div>
+            <div>
+                <div>
+                    <h1>Tailwind</h1>
+                    <p class="text-slate-500">shubham varshney</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
